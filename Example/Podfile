@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTAPIsKit_Example' do
+  pod 'TTAPIsKit', :path => '../'
+
+  target 'TTAPIsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
