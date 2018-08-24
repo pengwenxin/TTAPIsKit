@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTAPIsKit'
-  s.version          = '0.1.0'
+  s.version          = '1'
   s.summary          = 'A short description of TTAPIsKit.'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'AFNetworking'
+    s.dependency 'CGToolsKit'
+
 end

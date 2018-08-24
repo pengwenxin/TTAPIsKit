@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CGToolsKit (1):
+    - FMDB
+    - MBProgressHUD
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - MBProgressHUD (1.1.0)
+  - TTAPIsKit (1):
+    - AFNetworking
+    - CGToolsKit
+
+DEPENDENCIES:
+  - TTAPIsKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FMDB
+    - MBProgressHUD
+  https://github.com/pengwenxin/CGSpecs.git:
+    - CGToolsKit
+
+EXTERNAL SOURCES:
+  TTAPIsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CGToolsKit: 73d64bb4fb1d01c76a795d5d82e9f3f4991540b1
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  TTAPIsKit: ba481e4c244aff781eb76448a82b4c6caf547794
+
+PODFILE CHECKSUM: f74b96b473a2e2b6182ed94dee83560711bd75c4
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_TTAPIsKit_Tests {
+  umbrella header "Pods-TTAPIsKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
